@@ -10,10 +10,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите значение параметра x: ");
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
             double F = 3 * Math.Sin(x + 2);
-            Console.WriteLine(F);
+            Console.WriteLine($"Значение F = {F}");
             Console.ReadLine();
 
 
